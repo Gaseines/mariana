@@ -1,0 +1,119 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 100vh;
+}
+
+p{
+  font-size: 2em;
+  text-align: center;
+}
+
+span{
+  color: rgb(255, 8, 193);
+}
+
+.btn_container{
+  width: 100%;
+  display: flex;
+  
+  justify-content: center;
+}
+
+button{
+  width: 125px;
+  height: 45px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(252, 252, 252, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+
+  color: white;
+  font-size: 1.2em;
+}
+
+button:hover{
+  transform: scale(105%);
+}
+
+.btn_accept{
+  background-color: rgb(76, 202, 76);
+}
+
+.btn_cancel{
+  background-color: rgb(235, 24, 24);
+}
+
+.btn_rosa{
+  background-color: rgb(235, 24, 218);
+}
+
+
+.controle{
+  width: 150px;
+  animation: controle 3s ease-in-out infinite;
+}
+
+@keyframes controle {
+  0%{
+    transform: rotate(-60deg);
+  }
+  50%{
+    transform: rotate(60deg);
+  }100%{
+    transform: rotate(-60deg);
+  }
+}
+
+
+
+
+/* Container para as gotas de chuva */
+.rain-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Estilo das gotas de chuva */
+.raindrop {
+  position: absolute;
+  bottom: 100%;
+  width: 2px;
+  height: 15px;
+  background: rgba(225, 0, 255, 0.5);
+  animation: fall linear infinite;
+  border-radius: 50%;
+}
+
+/* Animação de queda */
+@keyframes fall {
+  0% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(100vh);
+      opacity: 0;
+  }
+}
+
+/* Criação de múltiplas gotas de chuva com diferentes atrasos */
+.raindrop:nth-child(1) { left: 10%; animation-duration: 0.8s; animation-delay: 0.2s; }
+.raindrop:nth-child(2) { left: 20%; animation-duration: 0.7s; animation-delay: 0.3s; }
+.raindrop:nth-child(3) { left: 30%; animation-duration: 0.6s; animation-delay: 0.4s; }
+.raindrop:nth-child(4) { left: 40%; animation-duration: 0.9s; animation-delay: 0.1s; }
+.raindrop:nth-child(5) { left: 50%; animation-duration: 0.8s; animation-delay: 0.2s; }
+.raindrop:nth-child(6) { left: 60%; animation-duration: 0.7s; animation-delay: 0.3s; }
+.raindrop:nth-child(7) { left: 70%; animation-duration: 0.6s; animation-delay: 0.4s; }
+.raindrop:nth-child(8) { left: 80%; animation-duration: 0.9s; animation-delay: 0.1s; }
+.raindrop:nth-child(9) { left: 90%; animation-duration: 0.8s; animation-delay: 0.2s; }
+.raindrop:nth-child(10) { left: 95%; animation-duration: 0.7s; animation-delay: 0.3s; }
+
+
