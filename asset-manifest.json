@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gaseines.github.io/mariana/static/css/main.81159378.css",
-    "main.js": "/gaseines.github.io/mariana/static/js/main.abe992a9.js",
-    "static/js/453.1bc4c87b.chunk.js": "/gaseines.github.io/mariana/static/js/453.1bc4c87b.chunk.js",
-    "static/media/controle.png": "/gaseines.github.io/mariana/static/media/controle.d04fdc6b4dd12581c40d.png",
-    "index.html": "/gaseines.github.io/mariana/index.html",
-    "main.81159378.css.map": "/gaseines.github.io/mariana/static/css/main.81159378.css.map",
-    "main.abe992a9.js.map": "/gaseines.github.io/mariana/static/js/main.abe992a9.js.map",
-    "453.1bc4c87b.chunk.js.map": "/gaseines.github.io/mariana/static/js/453.1bc4c87b.chunk.js.map"
+    "main.css": "/mariana/static/css/main.81159378.css",
+    "main.js": "/mariana/static/js/main.c2397916.js",
+    "static/js/453.1bc4c87b.chunk.js": "/mariana/static/js/453.1bc4c87b.chunk.js",
+    "static/media/controle.png": "/mariana/static/media/controle.d04fdc6b4dd12581c40d.png",
+    "index.html": "/mariana/index.html",
+    "main.81159378.css.map": "/mariana/static/css/main.81159378.css.map",
+    "main.c2397916.js.map": "/mariana/static/js/main.c2397916.js.map",
+    "453.1bc4c87b.chunk.js.map": "/mariana/static/js/453.1bc4c87b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81159378.css",
-    "static/js/main.abe992a9.js"
+    "static/js/main.c2397916.js"
   ]
 }
